@@ -87,10 +87,10 @@ I successfully implemented a solution connecting Linux and Windows systems, show
 ---
 
 ## Results & Impact
-- ✅ 100% cross-platform authentication success  
-- ✅ Zero downtime during domain join operations  
-- ✅ Linux clients fully integrated into Windows-managed infrastructure  
-- ✅ Bi-directional communication validated (SSH + GUI logins)  
+- 100% cross-platform authentication success  
+- Zero downtime during domain join operations  
+- Linux clients fully integrated into Windows-managed infrastructure  
+- Bi-directional communication validated (SSH + GUI logins)  
 
 **Professional Value**
 - Demonstrates enterprise-ready mixed-environment management  
