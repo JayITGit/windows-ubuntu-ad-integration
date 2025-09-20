@@ -1,6 +1,6 @@
 # Windows-Ubuntu-AD-Integration
 
-Cross-platform integration of an **Ubuntu 22.04 LTS** client with a **Windows Server 2019** Active Directory domain (`cross-os.local`). This project demonstrates my expertise in mixed-environment system administration and enterprise-ready integration.
+Cross-platform integration of an **Ubuntu 24.04 LTS** client with a **Windows Server 2025** Active Directory domain (`cross-os.local`). This project demonstrates my expertise in mixed-environment system administration and enterprise-ready integration.
 
 ---
 
@@ -56,33 +56,33 @@ I successfully implemented a solution connecting Linux and Windows systems, show
 - Configured static IP and DNS  
 - Promoted Windows Server to Domain Controller  
 
-`screenshots/01_project_setup.png`  
-`screenshots/04_server_static_ip_and_dns.png`  
-`screenshots/09_promote_to_domain_controller.png`  
+![Project Setup](screenshots/01_project_setup.png)  
+![Server Static IP & DNS](screenshots/04_server_static_ip_and_dns.png)  
+![Promote to Domain Controller](screenshots/09_promote_to_domain_controller.png)  
 
 ### Phase 2: Service Validation
 - Verified AD and DNS functionality  
 - Confirmed network connectivity from Ubuntu client  
 
-`screenshots/10_ad_and_dns_manager.png`  
-`screenshots/14_ubuntu_ping_test.png`  
+![AD & DNS Verification](screenshots/10_ad_and_dns_manager.png)  
+![Ubuntu Ping Test](screenshots/14_ubuntu_ping_test.png)  
 
 ### Phase 3: Ubuntu Integration
 - Installed and configured SSSD, Kerberos, and realm tools  
 - Joined Ubuntu client to AD domain successfully  
 
-`screenshots/13_ubuntu_install_packages.png`  
-`screenshots/15_ubuntu_join_domain.png`  
+![Install Packages on Ubuntu](screenshots/13_ubuntu_install_packages.png)  
+![Ubuntu Join Domain](screenshots/15_ubuntu_join_domain.png)  
 
 ### Phase 4: Comprehensive Testing
 - Created AD user accounts and verified authentication from Ubuntu  
 - Validated Kerberos tickets and SSH access  
 - Confirmed Ubuntu machine appears in AD console  
 
-`screenshots/17_ad_create_user.png`  
-`screenshots/22_whoami_klist_verification.png`  
-`screenshots/20_ssh_login_verification.png`  
-`screenshots/16_ad_and_ubuntu_verification.png`  
+![Create AD User](screenshots/17_ad_create_user.png)  
+![Whoami & Klist Verification](screenshots/22_whoami_klist_verification.png)  
+![SSH Login Verification](screenshots/20_ssh_login_verification.png)  
+![AD & Ubuntu Verification](screenshots/16_ad_and_ubuntu_verification.png)  
 
 ---
 
@@ -114,6 +114,3 @@ I successfully implemented a solution connecting Linux and Windows systems, show
 **Networking & Security**
 - Static IP and DNS configuration  
 - Secure cross-platform authentication protocols  
-
----
-
